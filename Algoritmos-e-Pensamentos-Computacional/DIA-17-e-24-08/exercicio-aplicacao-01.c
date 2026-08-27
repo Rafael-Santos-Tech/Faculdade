@@ -3,7 +3,7 @@
 
 int main()
 {
-    float raio = 5.30, perimetro;
+    float raio, perimetro;
     
     printf("Qual a medida do raio (em cm)? ");
     scanf("%f", &raio);

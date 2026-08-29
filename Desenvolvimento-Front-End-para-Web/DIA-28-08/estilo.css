@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: blue;
+    color: Black;
+    line-height: 1.6;
+}
+/*===============================
+Cabeçalho
+===============================*/
+header {
+    background-color: darkblue;
+    color: beige;
+    text-align: center;
+    padding: 40px 20px;
+}
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 18px;
+}
+/*================================
+Menu de navegação
+================================*/
+nav {
+    background-color: #53d4ff;
+    text-align: center;
+    padding: 15px;
+}
+nav a {
+    color: #fdfbd4;
+    text-decoration: none;
+    margin: 0 15px;
+}
+/*=================================
+Conteúdo Principal
+=================================*/
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+/*=================================
+Seções 
+=================================*/
+section {
+    background-color: cornflowerblue;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px;
+}
+section h2 {
+    color: blue;
+    margin-bottom: 20px;
+    border-bottom: 2px;
+    padding-bottom: 10px;
+}
+/*==================================
+Artigos / Cursos
+=================================*/
+article {
+    background-color: beige;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-left: 5px;
+    border-radius: 5px;
+}
+article:last-child {
+    margin-bottom: 5px;
+}
+article h3 {
+    color:darkblue;
+    margin-bottom: 8px;
+}
+article p {
+    color: rgb(246, 108, 3);
+}
+/*===================================
+Area Complementar
+===================================*/
+aside {
+    background-color: cornflowerblue;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-left: 5px;
+}
+aside h2 {
+    color: blue;
+    margin-bottom: 30px;
+}
+aside ul {
+    color: black;
+    padding-left: 20px;
+    
+}
+aside li {
+    margin-left: 25px;
+}
+/*===================================
+Rodapé
+===================================*/
+footer {
+    background-color: darkgray;
+    text-align: center;
+    padding: 30px 20px;
+}
+footer address {
+    font-style:normal ;
+    margin-bottom: 15px;
+}
+footer p {
+    font-size: 14px;
+}
+/*===================================
+Responsividade
+===================================*/
+@media (max-width: 600px){
+    header h1 {
+        font-size: 28px;
+    }
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+    main {
+        padding: 0 10px;
+    }
+    aside {
+        padding: 20px;
+    }
+}

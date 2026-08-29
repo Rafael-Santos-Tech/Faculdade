@@ -1,0 +1,19 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: blanchedalmond;
+    line-height: 2;
+    text-align: center;
+}
+img {
+    width: 650px;
+    height: 500px;
+}
+p {
+    text-align: center;
+}

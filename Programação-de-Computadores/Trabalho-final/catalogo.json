@@ -1,0 +1,870 @@
+[
+    {
+        "id": 1,
+        "titulo": "Minecraft",
+        "genero": "Aventura",
+        "preco": 99.9,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 2,
+        "titulo": "Hollow Knight",
+        "genero": "Aventura",
+        "preco": 39.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 4,
+        "titulo": "Ori and the Will of the Wisps",
+        "genero": "Aventura",
+        "preco": 49.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 5,
+        "titulo": "A Short Hike",
+        "genero": "Aventura",
+        "preco": 15.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 6,
+        "titulo": "Firewatch",
+        "genero": "Aventura",
+        "preco": 24.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 7,
+        "titulo": "Disco Elysium",
+        "genero": "Aventura",
+        "preco": 59.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 8,
+        "titulo": "What Remains of Edith Finch",
+        "genero": "Aventura",
+        "preco": 24.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 9,
+        "titulo": "Subnautica",
+        "genero": "Aventura",
+        "preco": 49.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 10,
+        "titulo": "The Stanley Parable Ultra Deluxe",
+        "genero": "Aventura",
+        "preco": 39.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 11,
+        "titulo": "Clair Obscur: Expedition 33",
+        "genero": "Aventura",
+        "preco": 199.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 12,
+        "titulo": "Hollow Knight:Silksong",
+        "genero": "Aventura",
+        "preco": 67.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 13,
+        "titulo": "It Takes Two",
+        "genero": "Aventura",
+        "preco": 99.9,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 14,
+        "titulo": "Red Dead Redemption 2",
+        "genero": "Aventura",
+        "preco": 187.95,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 15,
+        "titulo": "God of War",
+        "genero": "Aventura",
+        "preco": 119.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 16,
+        "titulo": "Devil May Cry 5",
+        "genero": "Aventura",
+        "preco": 129.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 17,
+        "titulo": "Sekiro: Shadows Die Twice",
+        "genero": "Aventura",
+        "preco": 199.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 18,
+        "titulo": "Doom Eternal",
+        "genero": "Aventura",
+        "preco": 69.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 19,
+        "titulo": "Control Ultimate Edition",
+        "genero": "Aventura",
+        "preco": 59.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 20,
+        "titulo": "Monster Hunter: World",
+        "genero": "Aventura",
+        "preco": 59.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 21,
+        "titulo": "Ghostwire: Tokyo",
+        "genero": "Aventura",
+        "preco": 99.99,
+        "avaliacao": 4.3
+    },
+    {
+        "id": 22,
+        "titulo": "Monster Hunter Wilds",
+        "genero": "Aventura",
+        "preco": 299.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 23,
+        "titulo": "Dave the Diver",
+        "genero": "Aventura",
+        "preco": 49.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 24,
+        "titulo": "Portal 2",
+        "genero": "Aventura",
+        "preco": 29.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 25,
+        "titulo": "Return of the Obra Dinn",
+        "genero": "Aventura",
+        "preco": 34.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 26,
+        "titulo": "The Witness",
+        "genero": "Aventura",
+        "preco": 49.99,
+        "avaliacao": 4.5
+    },
+    {
+        "id": 27,
+        "titulo": "Antichamber",
+        "genero": "Aventura",
+        "preco": 19.99,
+        "avaliacao": 4.6
+    },
+    {
+        "id": 28,
+        "titulo": "Manifold Garden",
+        "genero": "Aventura",
+        "preco": 24.99,
+        "avaliacao": 4.6
+    },
+    {
+        "id": 29,
+        "titulo": "Superhot",
+        "genero": "Aventura",
+        "preco": 34.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 30,
+        "titulo": "The Witcher 3: Wild Hunt",
+        "genero": "Aventura",
+        "preco": 99.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 31,
+        "titulo": "Baldur's Gate 3",
+        "genero": "Aventura",
+        "preco": 199.9,
+        "avaliacao": 5.0
+    },
+    {
+        "id": 32,
+        "titulo": "Mass Effect Legendary Edition",
+        "genero": "Aventura",
+        "preco": 99.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 33,
+        "titulo": "Dragon Age: Origins",
+        "genero": "Aventura",
+        "preco": 19.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 34,
+        "titulo": "Dark Souls III",
+        "genero": "Aventura",
+        "preco": 99.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 35,
+        "titulo": "Pathfinder: Wrath of Righteous",
+        "genero": "Aventura",
+        "preco": 79.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 36,
+        "titulo": "Kingdom Come: Deliverance 2",
+        "genero": "Aventura",
+        "preco": 249.9,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 37,
+        "titulo": "FIFA 25",
+        "genero": "Esporte",
+        "preco": 299.9,
+        "avaliacao": 4.1
+    },
+    {
+        "id": 38,
+        "titulo": "EA Sports FC 26",
+        "genero": "Esporte",
+        "preco": 299.99,
+        "avaliacao": 4.1
+    },
+    {
+        "id": 39,
+        "titulo": "NBA 2K25",
+        "genero": "Esporte",
+        "preco": 249.99,
+        "avaliacao": 3.9
+    },
+    {
+        "id": 40,
+        "titulo": "MLB The Show 25",
+        "genero": "Esporte",
+        "preco": 249.99,
+        "avaliacao": 4.3
+    },
+    {
+        "id": 41,
+        "titulo": "Tony Hawk's Pro Skater 1+2",
+        "genero": "Esporte",
+        "preco": 79.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 42,
+        "titulo": "Steep",
+        "genero": "Esporte",
+        "preco": 49.99,
+        "avaliacao": 4.3
+    },
+    {
+        "id": 43,
+        "titulo": "Rocket League",
+        "genero": "Esporte",
+        "preco": 0.0,
+        "avaliacao": 4.6
+    },
+    {
+        "id": 44,
+        "titulo": "Hollow Knight:Silksong",
+        "genero": "Ação",
+        "preco": 67.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 45,
+        "titulo": "Red Dead Redemption 2",
+        "genero": "Ação",
+        "preco": 187.95,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 46,
+        "titulo": "God of War",
+        "genero": "Ação",
+        "preco": 119.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 47,
+        "titulo": "Devil May Cry 5",
+        "genero": "Ação",
+        "preco": 129.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 48,
+        "titulo": "Sekiro: Shadows Die Twice",
+        "genero": "Ação",
+        "preco": 199.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 49,
+        "titulo": "Doom Eternal",
+        "genero": "Ação",
+        "preco": 69.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 50,
+        "titulo": "Hades",
+        "genero": "Ação",
+        "preco": 37.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 51,
+        "titulo": "Control Ultimate Edition",
+        "genero": "Ação",
+        "preco": 59.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 52,
+        "titulo": "Monster Hunter: World",
+        "genero": "Ação",
+        "preco": 59.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 53,
+        "titulo": "Ghostwire: Tokyo",
+        "genero": "Ação",
+        "preco": 99.99,
+        "avaliacao": 4.3
+    },
+    {
+        "id": 54,
+        "titulo": "Monster Hunter Wilds",
+        "genero": "Ação",
+        "preco": 299.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 55,
+        "titulo": "Hollow Knight",
+        "genero": "Ação",
+        "preco": 39.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 56,
+        "titulo": "Ori and the Will of the Wisps",
+        "genero": "Ação",
+        "preco": 49.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 57,
+        "titulo": "Subnautica",
+        "genero": "Ação",
+        "preco": 49.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 58,
+        "titulo": "Clair Obscur: Expedition 33",
+        "genero": "Ação",
+        "preco": 199.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 59,
+        "titulo": "Steep",
+        "genero": "Ação",
+        "preco": 49.99,
+        "avaliacao": 4.3
+    },
+    {
+        "id": 60,
+        "titulo": "Among Us",
+        "genero": "Ação",
+        "preco": 9.99,
+        "avaliacao": 4.5
+    },
+    {
+        "id": 61,
+        "titulo": "Untitled Goose Game",
+        "genero": "Ação",
+        "preco": 29.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 62,
+        "titulo": "Overcooked! 2",
+        "genero": "Ação",
+        "preco": 49.99,
+        "avaliacao": 4.6
+    },
+    {
+        "id": 63,
+        "titulo": "Dave the Diver",
+        "genero": "Ação",
+        "preco": 49.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 64,
+        "titulo": "Vampire Survivors",
+        "genero": "Ação",
+        "preco": 9.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 65,
+        "titulo": "Cuphead",
+        "genero": "Ação",
+        "preco": 49.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 66,
+        "titulo": "The Talos Principle 2",
+        "genero": "Ação",
+        "preco": 99.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 67,
+        "titulo": "Portal 2",
+        "genero": "Ação",
+        "preco": 29.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 68,
+        "titulo": "Superhot",
+        "genero": "Ação",
+        "preco": 34.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 69,
+        "titulo": "The Witcher 3: Wild Hunt",
+        "genero": "Ação",
+        "preco": 99.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 70,
+        "titulo": "Elden Ring",
+        "genero": "Ação",
+        "preco": 249.9,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 71,
+        "titulo": "Dark Souls III",
+        "genero": "Ação",
+        "preco": 99.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 72,
+        "titulo": "Pathfinder: Wrath of Righteous",
+        "genero": "Ação",
+        "preco": 79.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 73,
+        "titulo": "Kingdom Come: Deliverance 2",
+        "genero": "Ação",
+        "preco": 249.9,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 74,
+        "titulo": "Titan Fall 2",
+        "genero": "Ação",
+        "preco": 99.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 75,
+        "titulo": "Stardew Valley",
+        "genero": "Casual",
+        "preco": 37.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 76,
+        "titulo": "Firewatch",
+        "genero": "Casual",
+        "preco": 24.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 77,
+        "titulo": "The Stanley Parable Ultra Deluxe",
+        "genero": "Casual",
+        "preco": 39.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 78,
+        "titulo": "Among Us",
+        "genero": "Casual",
+        "preco": 9.99,
+        "avaliacao": 4.5
+    },
+    {
+        "id": 79,
+        "titulo": "Untitled Goose Game",
+        "genero": "Casual",
+        "preco": 29.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 80,
+        "titulo": "Overcooked! 2",
+        "genero": "Casual",
+        "preco": 49.99,
+        "avaliacao": 4.6
+    },
+    {
+        "id": 81,
+        "titulo": "Fall Guys",
+        "genero": "Casual",
+        "preco": 0.0,
+        "avaliacao": 4.3
+    },
+    {
+        "id": 82,
+        "titulo": "Unpacking",
+        "genero": "Casual",
+        "preco": 29.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 83,
+        "titulo": "Dave the Diver",
+        "genero": "Casual",
+        "preco": 49.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 84,
+        "titulo": "Vampire Survivors",
+        "genero": "Casual",
+        "preco": 9.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 85,
+        "titulo": "Baba Is You",
+        "genero": "Casual",
+        "preco": 29.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 86,
+        "titulo": "The Witness",
+        "genero": "Casual",
+        "preco": 49.99,
+        "avaliacao": 4.5
+    },
+    {
+        "id": 87,
+        "titulo": "Superhot",
+        "genero": "Casual",
+        "preco": 34.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 88,
+        "titulo": "F1 24",
+        "genero": "Casual",
+        "preco": 249.99,
+        "avaliacao": 4.2
+    },
+    {
+        "id": 89,
+        "titulo": "Portal 2",
+        "genero": "Puzzle",
+        "preco": 29.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 90,
+        "titulo": "The Talos Principle 2",
+        "genero": "Puzzle",
+        "preco": 99.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 91,
+        "titulo": "Baba Is You",
+        "genero": "Puzzle",
+        "preco": 29.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 92,
+        "titulo": "Return of the Obra Dinn",
+        "genero": "Puzzle",
+        "preco": 34.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 93,
+        "titulo": "The Witness",
+        "genero": "Puzzle",
+        "preco": 49.99,
+        "avaliacao": 4.5
+    },
+    {
+        "id": 94,
+        "titulo": "Antichamber",
+        "genero": "Puzzle",
+        "preco": 19.99,
+        "avaliacao": 4.6
+    },
+    {
+        "id": 95,
+        "titulo": "Manifold Garden",
+        "genero": "Puzzle",
+        "preco": 24.99,
+        "avaliacao": 4.6
+    },
+    {
+        "id": 96,
+        "titulo": "Superhot",
+        "genero": "Puzzle",
+        "preco": 34.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 97,
+        "titulo": "Cyberpunk 2077",
+        "genero": "RPG",
+        "preco": 199.9,
+        "avaliacao": 4.5
+    },
+    {
+        "id": 98,
+        "titulo": "Disco Elysium",
+        "genero": "RPG",
+        "preco": 59.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 99,
+        "titulo": "Clair Obscur: Expedition 33",
+        "genero": "RPG",
+        "preco": 199.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 100,
+        "titulo": "Sekiro: Shadows Die Twice",
+        "genero": "RPG",
+        "preco": 199.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 101,
+        "titulo": "Hades",
+        "genero": "RPG",
+        "preco": 37.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 102,
+        "titulo": "Monster Hunter: World",
+        "genero": "RPG",
+        "preco": 59.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 103,
+        "titulo": "Monster Hunter Wilds",
+        "genero": "RPG",
+        "preco": 299.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 104,
+        "titulo": "Stardew Valley",
+        "genero": "RPG",
+        "preco": 37.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 105,
+        "titulo": "Dave the Diver",
+        "genero": "RPG",
+        "preco": 49.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 106,
+        "titulo": "Vampire Survivors",
+        "genero": "RPG",
+        "preco": 9.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 107,
+        "titulo": "The Witcher 3: Wild Hunt",
+        "genero": "RPG",
+        "preco": 99.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 108,
+        "titulo": "Baldur's Gate 3",
+        "genero": "RPG",
+        "preco": 199.9,
+        "avaliacao": 5.0
+    },
+    {
+        "id": 109,
+        "titulo": "Elden Ring",
+        "genero": "RPG",
+        "preco": 249.9,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 110,
+        "titulo": "Mass Effect Legendary Edition",
+        "genero": "RPG",
+        "preco": 99.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 111,
+        "titulo": "Divinity: Original Sin 2",
+        "genero": "RPG",
+        "preco": 59.99,
+        "avaliacao": 4.9
+    },
+    {
+        "id": 112,
+        "titulo": "Dragon Age: Origins",
+        "genero": "RPG",
+        "preco": 19.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 113,
+        "titulo": "Dark Souls III",
+        "genero": "RPG",
+        "preco": 99.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 114,
+        "titulo": "Pathfinder: Wrath of Righteous",
+        "genero": "RPG",
+        "preco": 79.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 115,
+        "titulo": "Kingdom Come: Deliverance 2",
+        "genero": "RPG",
+        "preco": 249.9,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 116,
+        "titulo": "Rocket League",
+        "genero": "Corrida",
+        "preco": 0.0,
+        "avaliacao": 4.6
+    },
+    {
+        "id": 117,
+        "titulo": "Forza Horizon 5",
+        "genero": "Corrida",
+        "preco": 199.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 118,
+        "titulo": "F1 24",
+        "genero": "Corrida",
+        "preco": 249.99,
+        "avaliacao": 4.2
+    },
+    {
+        "id": 119,
+        "titulo": "Assetto Corsa",
+        "genero": "Corrida",
+        "preco": 34.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 120,
+        "titulo": "Need for Speed: Heat",
+        "genero": "Corrida",
+        "preco": 59.99,
+        "avaliacao": 4.3
+    },
+    {
+        "id": 121,
+        "titulo": "Wreckfest",
+        "genero": "Corrida",
+        "preco": 79.99,
+        "avaliacao": 4.8
+    },
+    {
+        "id": 122,
+        "titulo": "Hot Wheels Unleashed 2",
+        "genero": "Corrida",
+        "preco": 149.99,
+        "avaliacao": 4.4
+    },
+    {
+        "id": 123,
+        "titulo": "Dirt Rally 2.0",
+        "genero": "Corrida",
+        "preco": 39.99,
+        "avaliacao": 4.6
+    },
+    {
+        "id": 124,
+        "titulo": "Crash Team Racing Nitro-Fueled",
+        "genero": "Corrida",
+        "preco": 99.99,
+        "avaliacao": 4.7
+    },
+    {
+        "id": 125,
+        "titulo": "Trackmania",
+        "genero": "Corrida",
+        "preco": 0.0,
+        "avaliacao": 4.6
+    }
+]

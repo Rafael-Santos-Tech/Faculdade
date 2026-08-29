@@ -1,0 +1,13 @@
+{
+    "admin": {
+        "nome": "Adminstrador",
+        "senha": "admin123",
+        "saldo": 811.02,
+        "biblioteca": [
+            123,
+            122
+        ],
+        "carrinho": [],
+        "admin": true
+    }
+}

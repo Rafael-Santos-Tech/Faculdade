@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "usuario": "admin",
+        "jogos": [
+            "Hot Wheels Unleashed 2"
+        ],
+        "total": 149.99,
+        "data": "07/05/2026 02:17:51"
+    }
+]

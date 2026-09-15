@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do (iframe) - Natureza</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(91, 255, 192);
+            color: blue;
+        }
+
+        .header {
+            background-color: darkgreen;
+            color: azure;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .nav {
+            background-color: darkgray;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .nav a {
+            color: whitesmoke;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .content h2 {
+            color: darkcyan;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .iframe-container {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px black;
+        }
+
+        .footer {
+            background-color: green;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Natureza</h1>
+    </div>
+
+    <div class="nav">
+        <a href="index.html"> Index</a>
+        <a href="blog.html"> Blog (áudio)</a>
+        <a href="video.html"> Página do (vídeo) </a>
+        <a href="iframe.html"> Página do (iframe) </a>
+        <a href="contato.html"> Contato </a>
+    </div>
+
+    <div class="content">
+        <h2>Conteúdo Incorporado (Iframe)</h2>
+        <p>O elemento <code>&lt;iframe&gt;</code> abaixo exibe conteúdo externo integrado de forma fluida à página (como um mapa ou um vídeo de outra plataforma):</p>
+        
+        <div class="iframe-container">
+            <!-- Exemplo incorporando um mapa público interativo -->
+            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-46.6333%2C-23.5505%2C-46.5333%2C-23.4505&amp;layer=mapnik" title="Mapa de Localização"></iframe>
+        </div>
+    </div>
+
+    <div class="footer">
+        Universidade Cruzeiro do Sul <br>
+        Avenida da tecnologia 100 <br>
+        Guarulhos - São Paulo - SP E-mail: contato@universidade.com <br>
+        <p>&copy;2026 Universidade do Sul</p>
+    </div>
+</body>
+</html>

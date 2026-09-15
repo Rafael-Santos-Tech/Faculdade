@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog (Áudio) - Natureza</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(91, 255, 192);
+            color: blue;
+        }
+
+        .header {
+            background-color: darkgreen;
+            color: azure;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .nav {
+            background-color: darkgray;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .nav a {
+            color: whitesmoke;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .content h2 {
+            color: darkcyan;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .audio-container {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+
+        audio {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 10px;
+        }
+
+        .footer {
+            background-color: green;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Natureza</h1>
+    </div>
+
+    <div class="nav">
+        <a href="index.html"> Index</a>
+        <a href="blog.html"> Blog (áudio)</a>
+        <a href="video.html"> Página do (vídeo) </a>
+        <a href="iframe.html"> Página do (iframe) </a>
+        <a href="contato.html"> Contato </a>
+    </div>
+
+    <div class="content">
+        <h2>Blog - Podcast & Sons da Natureza</h2>
+        <p>Acompanhe nossos episódios de áudio e mergulhe nas paisagens sonoras das mais diversas florestas do mundo.</p>
+
+        <div class="audio-container">
+            <h3>Episódio 1: Sons da Floresta Tropical</h3>
+            <p>Ouça os ruídos característicos da fauna e flora das florestas tropicais ao amanhecer.</p>
+            
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio (HTML5).
+            </audio>
+        </div>
+    </div>
+
+    <div class="footer">
+        Universidade Cruzeiro do Sul <br>
+        Avenida da tecnologia 100 <br>
+        Guarulhos - São Paulo - SP E-mail: contato@universidade.com <br>
+        <p>&copy;2026 Universidade do Sul</p>
+    </div>
+</body>
+</html>

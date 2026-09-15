@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Natureza</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(91, 255, 192);
+            color: blue;
+        }
+
+        .header {
+            background-color: darkgreen;
+            color: azure;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .nav {
+            background-color: darkgray;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .nav a {
+            color: whitesmoke;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .content h2 {
+            color: darkcyan;
+        }
+
+        .content p {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: darkcyan;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: darkcyan;
+            box-shadow: 0 0 5px rgba(0, 139, 139, 0.5);
+        }
+
+        .btn-submit {
+            background-color: darkgreen;
+            color: azure;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .btn-submit:hover {
+            background-color: green;
+        }
+
+        .video-container {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .video {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px black;
+        }
+
+        .footer {
+            background-color: green;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Natureza</h1>
+    </div>
+
+    <div class="nav">
+        <a href="index.html"> Index</a>
+        <a href="blog.html"> Blog (áudio)</a>
+        <a href="video.html"> Página do (vídeo) </a>
+        <a href="iframe.html"> Página do (iframe) </a>
+        <a href="contato.html"> Contato </a>
+    </div>
+
+    <div class="content">
+        <h2>Contato</h2>
+        <p>Preencha o formulário abaixo para enviar uma mensagem para nossa equipe.</p>
+
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com">
+            </div>
+
+            <div class="form-group">
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required placeholder="Assunto da mensagem">
+            </div>
+
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Escreva sua mensagem aqui..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Enviar Mensagem</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        Universidade Cruzeiro do Sul <br>
+        Avenida da tecnologia 100 <br>
+        Guarulhos - São Paulo - SP E-mail: contato@universidade.com <br>
+        <p>&copy;2026 Universidade do Sul</p>
+    </div>
+</body>
+</html>

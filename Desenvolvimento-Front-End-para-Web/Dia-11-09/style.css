@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #faf9f6;
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Titulo */
+
+h1 {
+    text-align: center;
+    color: blue;
+    margin-bottom: 25px;
+}
+
+/* Formulario */
+
+form {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px;
+}
+
+/* Label */
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+/* Campo de Texto */
+
+input [type="text"],
+input [type="password"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Efeitos nos campos */
+
+input [type="text"]:focus,
+input [type="password"]:focus,
+select:focus,
+textarea:focus{
+    outline: none;
+    border-color: aquamarine;
+    box-shadow: 0 0 5px;
+}
+
+/* Radio e Checkbox */
+
+input [type="text"],
+input [type="password"],
+input [type="checkbox"]{
+    margin-right: 6px;
+    min-height: 8px;
+}
+
+/* Textarea */
+
+textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Select */
+
+select{
+    cursor: pointer;
+    background-color: white;
+}
+
+/* Botões */
+
+button {
+    padding: 11px 25px;
+    margin-top: 15px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Botão enviar */
+
+button[type="submit"]{
+    background-color: green;
+    color: white;
+}
+
+/* Botão limpar */
+
+button[type="reset"]{
+    background-color: red;
+    color: white;
+}
+
+/* Efeito hover */
+
+button[type="submit"]:hover{
+    background-color: aquamarine;
+}
+button[type="reset"]:hover{
+    background-color:  #FF4B4B;
+}

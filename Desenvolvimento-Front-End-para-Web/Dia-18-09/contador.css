@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: whitesmoke;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 340px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #2d3748;
+    margin-bottom: 10px;
+}
+
+#numero {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin: 20px 0;
+}
+
+/* Organizando os botões lado a lado */
+.container button {
+    padding: 12px 18px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 4px;
+    min-width: 60px;
+}
+
+/* Cores específicas para cada ação */
+#diminuir {
+    background-color: #fed7d7;
+    color: #9b2c2c;
+}
+#diminuir:hover {
+    background-color: #feb2b2;
+    transform: translateY(-2px);
+}
+
+#zerar {
+    background-color: #e2e8f0;
+    color: #4a5568;
+}
+#zerar:hover {
+    background-color: #cbd5e0;
+    transform: translateY(-2px);
+}
+
+#aumentar {
+    background-color: #c6f6d5;
+    color: #22543d;
+}
+#aumentar:hover {
+    background-color: #9ae6b4;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,75 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+
+    /* Degradê roxo com rosa */
+    background: linear-gradient(135deg, #6a0dad, #d63384);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 25px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Botão */
+button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+
+    background-color: white;
+    color: #7b1fa2;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #f3d1ff;
+    transform: scale(1.05);
+}
+
+/* Área do resultado */
+#res {
+    margin-top: 25px;
+    padding: 20px 30px;
+
+    min-width: 250px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Texto do resultado */
+#res p {
+    font-size: 18px;
+}

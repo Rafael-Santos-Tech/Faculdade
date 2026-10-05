@@ -1,0 +1,68 @@
+/* Estilo geral da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #fff0f6, #ffd6e7);
+    color: #4a1830;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Título */
+h1 {
+    color: #d63384;
+    font-size: 36px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px #f5a6c8;
+}
+
+/* Botão */
+button {
+    background-color: #e83e8c;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(214, 51, 132, 0.3);
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #c21868;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(194, 24, 104, 0.4);
+}
+
+/* Área do resultado */
+#situacao {
+    width: 320px;
+    min-height: 80px;
+    margin-top: 25px;
+    padding: 20px;
+
+    background-color: #ffffff;
+    border: 2px solid #f08ab5;
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(214, 51, 132, 0.2);
+
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Texto do resultado */
+#situacao p {
+    margin: 0;
+    color: #721c45;
+    font-size: 18px;
+    line-height: 1.5;
+}

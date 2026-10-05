@@ -1,0 +1,108 @@
+/* Configuração geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Degradê inspirado na bandeira LGBTQIA+ */
+    background: linear-gradient(
+        135deg,
+        #e40303,
+        #ff8c00,
+        #ffed00,
+        #008026,
+        #004dff,
+        #750787
+    );
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Título */
+h1 {
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+
+    margin-bottom: 30px;
+}
+
+/* Botão */
+button {
+    padding: 15px 30px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    color: white;
+    background: rgba(0, 0, 0, 0.65);
+
+    border: 2px solid white;
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background: white;
+    color: #750787;
+
+    transform: scale(1.05);
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Caixa de resultado */
+#result {
+    width: 350px;
+    min-height: 100px;
+
+    margin-top: 30px;
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Texto do resultado */
+#result p {
+    margin: 0;
+
+    color: #333;
+
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Efeito colorido na borda do resultado */
+#result {
+    border: 5px solid transparent;
+
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(
+            135deg,
+            #e40303,
+            #ff8c00,
+            #ffed00,
+            #008026,
+            #004dff,
+            #750787
+        ) border-box;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+</head>
+<body>
+    <header class="cabecalho text-center">
+        <div class="container">
+            <h2>Layout com Bootstrap</h2>
+            <p>Exemplo de linhas, colunas e desing responsivo</p>
+        </div>
+    </header>
+    <main class="container py-5">
+        <section class="mb-5">
+            <h2 class="titulo-secao">Primeira linha</h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-6">
+                    <div class="card-custom card-azul">
+                        <span class="numero">01</span>
+                        <h3>Coluna 1</h3>
+                        <p>Este é o conteudo da primeira coluna</p>
+                        <button class="btn btn-light botao-acao" type="button">
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card-custom card-roxa">
+                        <span class="numero">02</span>
+                        <h3>Coluna 2</h3>
+                        <p>Esta coluna ocupa metade da linha em telas medias</p>
+                        <button class="btn btn-light botao-acao" type="button">
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mb-4">
+            <h2 class="titulo-secao">Segunda linha</h2>
+            <div class="row g-4">
+                <div class="col-12 col-lg-4">
+                    <div class="card-custom card-verde">
+                        <span class="numero">03</span>
+                        <h3>Coluna 3</h3>
+                        <p>Esta coluna ocupa um terço da linha em telas</p>
+                        <button class="btn btn-light botao-acao" type="button">
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="card-custom card-laranja">
+                        <span class="numero">04</span>
+                        <h3>Coluna 4</h3>
+                        <p>Esta coluna ocupa dois terços da linha em telas grandes</p>
+                        <button class="btn btn-light botao-acao" type="button">
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="mensagem" class="alert d-nome mt-4" role="status" aria-live="polite"></div>
+    </main>
+    <footer class="rodape text-center">
+        <p class="mb-0">
+            Projeto de estado HTML CSS BOOTSTRAP e javascript
+        </p>
+    </footer>
+    <script type="text/javascript" src="grid.js"></script>
+</body>
+</html>

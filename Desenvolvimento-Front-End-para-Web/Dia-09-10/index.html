@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>botões com e sem bootstrap</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container-fluid p-0">
+        <!-- Botões bootstrap -->
+        <h6>Botões com o bootstrap</h6>
+        <section class="grupo-botoes">
+            <button class="btn btn-primary btn-sm" type="button">
+                Primario
+            </button>
+            <button class="btn btn-secudary btn-sm" type="button">
+                Segundario
+            </button>
+            <button class="btn btn-sucess btn-sm" type="button">
+                Sucesso
+            </button>
+            <button class="btn btn-danger btn-sm" type="button">
+                Perigo
+            </button>
+            <button class="btn btn-warning btn-sm" type="button">
+                Aviso
+            </button>
+            <button class="btn btn-info btn-sm" type="button">
+                Informação
+            </button>
+            <button class="btn btn-light" type="button">
+                Claro
+            </button>
+            <button class="btn btn-dark" type="button">
+                Escuro
+            </button>
+
+        </section>
+        <!-- Botões sem bootstrap -->
+        <h6>Botões sem o bootstrap</h6>
+        <section class="grupo-botoes"> 
+            <button class="botao-personalizado" type="button">
+                Meu botão sem bootstrap primario
+            </button>
+            <button class="botao-personalizado" type="button">
+                Meu botão sem bootstrap secundario
+            </button>
+            <button class="botao-personalizado" type="button">
+                Meu botão sem bootstrap terceiro
+            </button>
+            <button class="botao-personalizado" type="button">
+                Meu botão sem bootstrap quarto
+            </button>
+        </section>
+        <p id="mensagem" class="aleta-mensagem" role="status"></p>
+        <script type="text/javascript" src="script.js"></script>
+    </main>
+</body>
+</html>

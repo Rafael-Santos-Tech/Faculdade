@@ -1,0 +1,107 @@
+/* Estilos gerais do corpo e cabeçalho/rodapé */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.cabecalho {
+    background: linear-gradient(135deg, #212529, #343a40);
+    color: white;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-secao {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    color: #495057;
+    border-left: 4px solid #0d6efd;
+    padding-left: 10px;
+}
+
+/* Estilo base dos cards personalizados */
+.card-custom {
+    position: relative;
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+/* Efeito ao passar o mouse por cima do card */
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Número decorativo no fundo do card */
+.card-custom .numero {
+    position: absolute;
+    top: -15px;
+    right: 15px;
+    font-size: 6rem;
+    font-weight: 800;
+    opacity: 0.15;
+    line-height: 1;
+    user-select: none;
+}
+
+.card-custom h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.card-custom p {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 1.5rem;
+}
+
+/* Botão de ação dentro dos cards */
+.botao-acao {
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.botao-acao:hover {
+    transform: scale(1.05);
+}
+
+/* --- DEGRADÊS PARA CADA TIPO DE CARD (Do tom principal para um tom mais claro) --- */
+
+/* 1. Azul: do azul escuro/médio para um azul claro/ciano */
+.card-azul {
+    background: linear-gradient(135deg, #0d6efd, #4dabf7);
+}
+
+/* 2. Roxo: do roxo intenso para um lilás/rosa claro */
+.card-roxa {
+    background: linear-gradient(135deg, #6f42c1, #b197fc);
+}
+
+/* 3. Verde: do verde escuro para um verde claro/menta */
+.card-verde {
+    background: linear-gradient(135deg, #198754, #51cf66);
+}
+
+/* 4. Laranja: do laranja vibrante para um amarelo/laranja claro */
+.card-laranja {
+    background: linear-gradient(135deg, #fd7e14, #ff922b);
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #212529;
+    color: #adb5bd;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}

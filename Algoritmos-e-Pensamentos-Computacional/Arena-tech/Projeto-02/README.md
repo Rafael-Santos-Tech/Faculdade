@@ -11,8 +11,8 @@ O projeto foca na manipulação estruturada de dados de entrada de usuários, ga
 
 ### 🛠️ Tecnologias Utilizadas
 - **Linguagem:** `C`
-- **Conceitos:** `Laços de Repetição (for/while)`, `Trabalho em Equipe`, `Versionamento`
-- **Ferramentas:** `Git`, `GitHub`, `Code::Blocks`, `VS Code`
+- **Conceitos:** `Laços de Repetição (for/while/do-while)`, `Trabalho em Equipe`, `Versionamento`
+- **Ferramentas:** `Git`, `GitHub`, `VS Code`
 
 ### 🚀 Como testar o código
 Certifique-se de ter um compilador C instalado na sua máquina. Abra o terminal na pasta do arquivo e execute os comandos:

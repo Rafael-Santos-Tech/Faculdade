@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopfood - Registro</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="app.js"></script>
+</head>
+
+<body class="login">
+    
+    <div class="widget-acessibilidade">
+        <button type="button"
+                id="botao-acessibilidade"
+                class="botao-acessibilidade"
+                aria-expanded="false"
+                aria-controls="painel-acessibilidade">
+            <span aria-hidden="true">♿</span>
+            <span class="sr-only">Abrir opções de acessibilidade</span>
+        </button>
+        <div id="painel-acessibilidade" class="painel-acessibilidade" hidden>
+            <h2>Acessibilidade</h2>
+            <button type="button" class="botao-opcao botao-tema" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">🌙</span>
+                <span>Modo escuro</span>
+            </button>
+            <button type="button" class="botao-opcao botao-daltonismo" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">👁️</span>
+                <span>Modo para daltonismo</span>
+            </button>
+            <p class="painel-acessibilidade-nota">
+                Este site também é compatível com o <strong>VLibras</strong>, o tradutor de Libras do Governo Federal. Procure o ícone dele no canto da tela.
+            </p>
+        </div>
+    </div>
+
+    <a href="#form-registro" class="pular-link">Pular para o formulário</a>
+
+
+    <main>
+    <div class="registro">
+        <h1>Loopfood</h1>
+        <p>Registre-se para criar sua conta</p>
+    </div>
+
+    <div class="card-container">
+        <h2>Registro</h2>
+        <form id="form-registro" class="form-auth" tabindex="-1">
+            <div class="login_box">
+                <label for="reg-nome">Nome completo</label>
+                <input id="reg-nome" type="text" name="nome" autocomplete="name" required>
+            </div>
+            <div class="login_box">
+                <label for="reg-usuario">Nome de usuário</label>
+                <input id="reg-usuario" type="text" name="usuario" autocomplete="username" required>
+            </div>
+            <div class="login_box">
+                <label for="reg-email">E-mail</label>
+                <input id="reg-email" type="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="login_box">
+                <label for="reg-senha">Senha</label>
+                <input id="reg-senha" type="password" name="senha" autocomplete="new-password" required>
+            </div>
+
+            <div class="login_check-group">
+                <button type="submit">Cadastrar</button>
+                <div class="login-link">
+                    Já tem conta? <a href="login.html">Fazer login</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    </main>
+
+    <!-- VLibras — tradutor de Libras do Governo Federal (vlibras.gov.br) -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    
+</body>
+</html>

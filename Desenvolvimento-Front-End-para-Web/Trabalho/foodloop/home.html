@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopfood - Home</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="app.js"></script>
+</head>
+
+<body class="inicial">
+
+    <div class="widget-acessibilidade">
+        <button type="button"
+                id="botao-acessibilidade"
+                class="botao-acessibilidade"
+                aria-expanded="false"
+                aria-controls="painel-acessibilidade">
+            <span aria-hidden="true">♿</span>
+            <span class="sr-only">Abrir opções de acessibilidade</span>
+        </button>
+        <div id="painel-acessibilidade" class="painel-acessibilidade" hidden>
+            <h2>Acessibilidade</h2>
+            <button type="button" class="botao-opcao botao-tema" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">🌙</span>
+                <span>Modo escuro</span>
+            </button>
+            <button type="button" class="botao-opcao botao-daltonismo" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">👁️</span>
+                <span>Modo para daltonismo</span>
+            </button>
+            <p class="painel-acessibilidade-nota">
+                Este site também é compatível com o <strong>VLibras</strong>, o tradutor de Libras do Governo Federal. Procure o ícone dele no canto da tela.
+            </p>
+        </div>
+    </div>
+
+    <a href="#conteudo-principal" class="pular-link">Pular para o conteúdo</a>
+
+
+    <!-- CABEÇALHO DA PÁGINA -->
+    <header class="pagina">
+        
+        <!-- Botões de Login e Cadastro -->
+        <div class="top-bar">
+            <div class="auth-links">
+                <a href="login.html" class="auth-btn login-btn">Entrar</a>
+                <a href="registro.html" class="auth-btn cadastro-btn">Cadastrar-se</a>
+            </div>
+        </div>
+
+        <!-- Identificação do Site -->
+        <h1>Loopfood</h1>
+    </header>
+
+    <!-- MENU DE NAVEGAÇÃO PRINCIPAL -->
+    <nav class="principal" aria-label="Principal">
+        <a href="home.html" class="nav-btn" aria-current="page">Início</a>
+        <a href="produtos.html" class="nav-btn">Produtos</a>
+        <a href="categorias.html" class="nav-btn">Categorias</a>
+        <a href="favoritos.html" class="nav-btn">Favoritos (<span class="badge-favoritos">0</span>)</a>
+        <a href="pedidos.html" class="nav-btn">Pedidos</a>
+        <a href="carrinho.html" class="nav-btn">Carrinho (<span class="badge-carrinho">0</span>)</a>
+    </nav>   
+    
+    <!-- ÁREA PRINCIPAL DO CONTEÚDO -->
+    <main class="destaques" id="conteudo-principal" tabindex="-1">
+
+        <!-- SEÇÃO: DESTAQUE DA SEMANA (CARROSSEL) -->
+        <section>
+            <h2>Destaque da semana</h2>
+            <div class="carrossel" role="region" aria-label="Destaques da semana" tabindex="0">
+                <div class="carrossel-trilha">
+
+                    <!-- Cards do Carrossel -->
+                    <article class="carrossel-item">
+                        <h3>Frete grátis em lanches</h3>
+                        <p>Pedidos acima de R$30,00</p>
+                    </article>
+
+                    <article class="carrossel-item">
+                        <h3>Pizza em dobro</h3>
+                        <p>Toda terça-feira</p>
+                    </article>
+
+                    <article class="carrossel-item">
+                        <h3>20% off em comida japonesa</h3>
+                        <p>Só até domingo</p>
+                    </article>
+
+                    <article class="carrossel-item">
+                        <h3>Doces a partir de R$ 5</h3>
+                        <p>Novos parceiros</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    
+        <!-- SEÇÃO: CATEGORIAS DE PRODUTOS -->
+        <section>
+            <h2>Categorias</h2>
+            <div class="categorias">
+                <a href="categorias.html?cat=lanches#produtos-categoria" class="categoria-item">
+                    <span>Lanches</span>
+                </a>
+                <a href="categorias.html?cat=pizzas#produtos-categoria" class="categoria-item">
+                    <span>Pizzas</span>
+                </a>
+                <a href="categorias.html?cat=japonesa#produtos-categoria" class="categoria-item">
+                    <span>Comida Japonesa</span>
+                </a>
+                <a href="categorias.html?cat=saudavel#produtos-categoria" class="categoria-item">
+                    <span>Saudável &amp; Saladas</span>
+                </a>
+                <a href="categorias.html?cat=doces#produtos-categoria" class="categoria-item">
+                    <span>Sobremesas &amp; Doces</span>
+                </a>
+                <a href="categorias.html?cat=bebidas#produtos-categoria" class="categoria-item">
+                    <span>Bebidas</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- SEÇÃO: PRODUTOS RECOMENDADOS -->
+        <section>
+            <h2>Recomendados</h2>
+            <div class="recomendados">
+                <h3>Recomendados para você:</h3>
+
+                <!-- Grade de Produtos -->
+                <div class="produtos-grid">
+
+                    <article class="produto-card">
+                        <div class="imagem">
+                            <img src="img/burguer-loop.jpg" alt="">
+                        </div>
+                        <h4>Burguer Loop</h4>
+                        <p class="produto-desc">Pão brioche, cheddar, bacon, alface e crispy de cebola.</p>
+                        <div class="produto-rodape">
+                            <span class="produto-preco">R$ 28,90</span>
+                            <a href="categorias.html?cat=lanches#produtos-categoria" class="btn-adicionar">Ver<span class="sr-only"> Burguer Loop</span>
+                             </a>
+                        </div>
+                    </article>
+
+                    <article class="produto-card">
+                        <div class="imagem">
+                            <img src="img/frango-catupiry.jpg" alt="">
+                        </div>
+                        <h4>Pizza Frango com Catupiry</h4>
+                        <p class="produto-desc">Molho, Frango, Queijo Muçarela e Catupiry.</p>
+                        <div class="produto-rodape">
+                            <span class="produto-preco">R$ 45,00</span>
+                            <a href="categorias.html?cat=pizzas#produtos-categoria" class="btn-adicionar">Ver<span class="sr-only"> Pizza Frango com Catupiry</span></a>
+                        </div>
+                    </article>
+
+                    <article class="produto-card">
+                        <div class="imagem">
+                            <img src="img/combo-sushi.jpg" alt="">
+                        </div>
+                        <h4>Combo Sushi 20 unidades</h4>
+                        <p class="produto-desc">4 Hossomakis de salmão, 4 Uramakis crus, 4 Niguiris de salmão, 4 Uramakis espeiais, 4 Hot rolls.</p>
+                        <div class="produto-rodape">
+                            <span class="produto-preco">R$ 59,90</span>
+                            <a href="categorias.html?cat=japonesa#produtos-categoria" class="btn-adicionar">Ver<span class="sr-only"> Combo Sushi 20 unidades</span></a>
+                        </div>
+                    </article>
+
+                    <article class="produto-card">
+                        <div class="imagem">
+                            <img src="img/salada-com-frango-desfiado.jpg" alt="">
+                        </div>
+                        <h4>Salada com Frango Desfiado</h4>
+                        <p class="produto-desc">Salada de alface, Tomate, Repolho, Pepino, Frango Desfiado e Chips de batata doce.</p>
+                        <div class="produto-rodape">
+                            <span class="produto-preco">R$ 22,00</span>
+                            <a href="categorias.html?cat=saudavel#produtos-categoria" class="btn-adicionar">Ver<span class="sr-only"> Salada com Frango Desfiado</span></a>
+                        </div>
+                    </article>
+
+                    <article class="produto-card">
+                        <div class="imagem">
+                            <img src="img/bolo-de-ferrero.jpg" alt="">
+                        </div>
+                        <h4>Bolo Ferrero Rocher (Com Nutella)</h4>
+                        <p class="produto-desc">Massa de chocolate caseira, recheada com um cremoso brigadeiro, por cima uma generosa camada de nutella.</p>
+                        <div class="produto-rodape">
+                            <span class="produto-preco">R$ 18,50</span>
+                            <a href="categorias.html?cat=doces#produtos-categoria" class="btn-adicionar">Ver<span class="sr-only"> Bolo Ferrero Rocher (Com Nutella)</span></a>
+                        </div>
+                    </article>
+
+                    <article class="produto-card">
+                        <div class="imagem">
+                            <img src="img/caldo-de-cana.jpg" alt="">
+                        </div>
+                        <h4>Caldo de cana de 1 litro com Limão</h4>
+                        <p class="produto-desc">Cana de Açucar e Limão.</p>
+                        <div class="produto-rodape">
+                            <span class="produto-preco">R$ 8,00</span>
+                            <a href="categorias.html?cat=bebidas#produtos-categoria" class="btn-adicionar">Ver<span class="sr-only"> Caldo de cana de 1 litro com Limão</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ DA PÁGINA -->
+    <footer class="rodape">
+        <p>&copy; 2026 Loopfood. Todos os direitos reservados.</p>
+        <nav class="rodape-links" aria-label="Rodapé">
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </footer>
+
+
+    <!-- VLibras — tradutor de Libras do Governo Federal (vlibras.gov.br) -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+
+</body>
+</html>

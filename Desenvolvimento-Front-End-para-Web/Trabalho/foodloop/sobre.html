@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sobre a Foodloop</title>
+
+    <!-- CSS principal -->
+     <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <!-- JavaScript principal -->
+    <script src="app.js" defer></script>
+</head>
+
+<body class="pagina-sobre">
+
+    <div class="widget-acessibilidade">
+        <button type="button"
+                id="botao-acessibilidade"
+                class="botao-acessibilidade"
+                aria-expanded="false"
+                aria-controls="painel-acessibilidade">
+            <span aria-hidden="true">♿</span>
+            <span class="sr-only">Abrir opções de acessibilidade</span>
+        </button>
+        <div id="painel-acessibilidade" class="painel-acessibilidade" hidden>
+            <h2>Acessibilidade</h2>
+            <button type="button" class="botao-opcao botao-tema" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">🌙</span>
+                <span>Modo escuro</span>
+            </button>
+            <button type="button" class="botao-opcao botao-daltonismo" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">👁️</span>
+                <span>Modo para daltonismo</span>
+            </button>
+            <p class="painel-acessibilidade-nota">
+                Este site também é compatível com o <strong>VLibras</strong>, o tradutor de Libras do Governo Federal. Procure o ícone dele no canto da tela.
+            </p>
+        </div>
+    </div>
+
+     <a href="#form-sobre" class="pular-link">Pular para o formulário</a>
+
+
+    <!-- Botão para voltar à página inicial -->
+    <a href="home.html" class="btn-voltar">
+        ← Voltar para Home
+    </a>
+
+    <!-- Conteúdo principal -->
+    <main class="sobre-foodloop" id="conteudo-principal">
+
+        <h1>Sobre a Foodloop</h1>
+
+        <p>
+            A Foodloop nasceu em 2026 como um projeto universitário
+            com um propósito: tornar o delivery mais acessível para todos.
+        </p>
+
+        <p>
+            Nosso objetivo é apoiar pequenos comerciantes, empreendedores
+            locais e pessoas que estão começando a vender por delivery,
+            oferecendo uma alternativa mais justa e acessível para divulgar
+            seus produtos e conquistar novos clientes.
+        </p>
+
+        <p>
+            Acreditamos que empreender não precisa ser sinônimo de custos
+            elevados. Por isso, a Foodloop foi idealizada para reduzir o
+            impacto das taxas abusivas e criar oportunidades para que
+            pequenos negócios cresçam, ganhem visibilidade e fortaleçam
+            o comércio local.
+        </p>
+
+        <p>
+            Mais do que conectar pessoas à comida, queremos conectar
+            oportunidades a quem deseja crescer.
+        </p>
+
+        <p>
+            <strong>Foodloop</strong> — valorizando o comércio local e
+            construindo novas possibilidades para o futuro do delivery.
+        </p>
+
+    </main>
+
+    <!-- VLibras: acessibilidade em Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+    <script>
+        new window.VLibras.Widget(
+            "https://vlibras.gov.br/app"
+        );
+    </script>
+
+</body>
+</html>

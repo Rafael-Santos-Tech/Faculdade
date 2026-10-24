@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopfood - Favoritos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body class="inicial">
+
+    <div class="widget-acessibilidade">
+        <button type="button"
+                id="botao-acessibilidade"
+                class="botao-acessibilidade"
+                aria-expanded="false"
+                aria-controls="painel-acessibilidade">
+            <span aria-hidden="true">♿</span>
+            <span class="sr-only">Abrir opções de acessibilidade</span>
+        </button>
+        <div id="painel-acessibilidade" class="painel-acessibilidade" hidden>
+            <h2>Acessibilidade</h2>
+            <button type="button" class="botao-opcao botao-tema" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">🌙</span>
+                <span>Modo escuro</span>
+            </button>
+            <button type="button" class="botao-opcao botao-daltonismo" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">👁️</span>
+                <span>Modo para daltonismo</span>
+            </button>
+            <p class="painel-acessibilidade-nota">
+                Este site também é compatível com o <strong>VLibras</strong>, o tradutor de Libras do Governo Federal. Procure o ícone dele no canto da tela.
+            </p>
+        </div>
+    </div>
+
+    <a href="#conteudo-principal" class="pular-link">Pular para o conteúdo</a>
+
+
+    <header class="pagina">
+
+      <!-- Botões de Login e Cadastro -->
+      <div class="top-bar">
+          <div class="auth-links">
+              <a href="login.html" class="auth-btn login-btn">Entrar</a>
+              <a href="registro.html" class="auth-btn cadastro-btn">Cadastrar-se</a>
+          </div>
+      </div>
+
+      <div class="logo">
+        <a href="home.html"><img src="logo/logo-tipo.jpeg" alt="Loopfood - página inicial"></a>
+      </div>
+      
+    </header>
+
+    <nav class="principal" aria-label="Principal">
+        <a href="home.html" class="nav-btn">Início</a>
+        <a href="produtos.html" class="nav-btn">Produtos</a>
+        <a href="categorias.html" class="nav-btn">Categorias</a>
+        <a href="favoritos.html" class="nav-btn" aria-current="page">Favoritos (<span class="badge-favoritos">0</span>)</a>
+        <a href="pedidos.html" class="nav-btn">Pedidos</a>
+        <a href="carrinho.html" class="nav-btn">Carrinho (<span class="badge-carrinho">0</span>)</a>
+    </nav>
+
+    <main class="container" id="conteudo-principal" tabindex="-1">
+      <h1>Seus Produtos Favoritos</h1>
+      <div id="lista-favoritos" class="grid-produto">
+        <!-- Injetado dinamicamente via JS -->
+      </div>
+    </main>
+
+    <footer class="rodape">
+          <p>&copy; 2026 Loopfood. Todos os direitos reservados.</p>
+          <nav class="rodape-links" aria-label="Rodapé">
+              <a href="sobre.html">Sobre</a>
+              <a href="contato.html">Contato</a>
+          </nav>
+      </footer>
+
+
+      <!-- VLibras — tradutor de Libras do Governo Federal (vlibras.gov.br) -->
+      <div vw class="enabled">
+          <div vw-access-button class="active"></div>
+          <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+          </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+          new window.VLibras.Widget("https://vlibras.gov.br/app");
+      </script>
+
+</body>
+</html>

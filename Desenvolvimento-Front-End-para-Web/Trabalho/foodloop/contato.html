@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato | Foodloop</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="app.js" defer></script>
+</head>
+
+<body class="pagina-contato">
+
+    <div class="widget-acessibilidade">
+        <button type="button"
+                id="botao-acessibilidade"
+                class="botao-acessibilidade"
+                aria-expanded="false"
+                aria-controls="painel-acessibilidade">
+            <span aria-hidden="true">♿</span>
+            <span class="sr-only">Abrir opções de acessibilidade</span>
+        </button>
+        <div id="painel-acessibilidade" class="painel-acessibilidade" hidden>
+            <h2>Acessibilidade</h2>
+            <button type="button" class="botao-opcao botao-tema" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">🌙</span>
+                <span>Modo escuro</span>
+            </button>
+            <button type="button" class="botao-opcao botao-daltonismo" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">👁️</span>
+                <span>Modo para daltonismo</span>
+            </button>
+            <p class="painel-acessibilidade-nota">
+                Este site também é compatível com o <strong>VLibras</strong>, o tradutor de Libras do Governo Federal. Procure o ícone dele no canto da tela.
+            </p>
+        </div>
+    </div>
+
+     <a href="#form-contato" class="pular-link">Pular para o formulário</a>
+
+
+    <!-- Botão para voltar -->
+    <a href="home.html" class="btn-voltar">
+        ← Voltar para Home
+    </a>
+
+    <!-- Conteúdo principal -->
+    <main class="contato-foodloop" id="conteudo-principal">
+
+        <h1>Entre em contato</h1>
+
+        <p class="contato-introducao">
+            Quer conhecer mais sobre o projeto Foodloop ou acompanhar
+            meu trabalho? Acesse meus perfis profissionais pelos links abaixo!
+        </p>
+
+        <section class="contato-cartoes" aria-label="Redes profissionais">
+
+            <!-- GitHub -->
+            <article class="cartao-contato">
+                <div class="icone-contato" aria-hidden="true">
+                
+                </div>
+
+                <h2>GitHub</h2>
+
+                <p>
+                    Confira nosso projetos, códigos e evolução
+                    na área de desenvolvimento.
+                </p>
+
+                <a
+                    href="https://github.com/Cauaandrade2000"
+                    class="botao-contato"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Acessar GitHub - Cauã Andrade
+                </a>
+                <br>
+                <a
+                    href="https://github.com/Rafael-Santos-Tech"
+                    class="botao-contato"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Acessar GitHub - Rafael Santos
+                </a>
+            </article>
+
+            <!-- LinkedIn -->
+            <article class="cartao-contato">
+                <div class="icone-contato" aria-hidden="true">
+                </div>
+
+                <h2>LinkedIn</h2>
+
+                <p>
+                    Conheça nosso perfil profissional e acompanhe
+                    nossa trajetória acadêmica e profissional.
+                </p>
+
+                <a
+                    href="https://www.linkedin.com/in/cauã-andrade-54b35334b/"
+                    class="botao-contato"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Acessar LinkedIn - Cauã Andrade
+                </a>
+                <br>
+                <a
+                    href="https://www.linkedin.com/in/rafael-dos-santos-ferreira-lima-4996a942b/?is"
+                    class="botao-contato"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Acessar LinkedIn - Rafael Santos
+                </a>
+            </article>
+
+        </section>
+
+        <p class="mensagem-contato">
+            <strong>Foodloop</strong> — conectando pessoas,
+            ideias e oportunidades.
+        </p>
+
+    </main>
+
+    <!-- VLibras: tradução de conteúdo para Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+
+</body>
+</html>

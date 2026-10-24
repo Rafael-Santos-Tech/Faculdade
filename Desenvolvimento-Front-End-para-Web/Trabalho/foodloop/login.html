@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopfood - Login</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="app.js"></script>
+</head>
+
+<body class="login">
+    
+    <div class="widget-acessibilidade">
+        <button type="button"
+                id="botao-acessibilidade"
+                class="botao-acessibilidade"
+                aria-expanded="false"
+                aria-controls="painel-acessibilidade">
+            <span aria-hidden="true">♿</span>
+            <span class="sr-only">Abrir opções de acessibilidade</span>
+        </button>
+        <div id="painel-acessibilidade" class="painel-acessibilidade" hidden>
+            <h2>Acessibilidade</h2>
+            <button type="button" class="botao-opcao botao-tema" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">🌙</span>
+                <span>Modo escuro</span>
+            </button>
+            <button type="button" class="botao-opcao botao-daltonismo" aria-pressed="false">
+                <span class="emoji-opcao" aria-hidden="true">👁️</span>
+                <span>Modo para daltonismo</span>
+            </button>
+            <p class="painel-acessibilidade-nota">
+                Este site também é compatível com o <strong>VLibras</strong>, o tradutor de Libras do Governo Federal. Procure o ícone dele no canto da tela.
+            </p>
+        </div>
+    </div>
+
+    <a href="#form-login" class="pular-link">Pular para o formulário</a>
+
+    <main>
+    <div class="registro">
+        <h1>Loopfood</h1>
+        <p>Seja bem-vindo ao Loopfood!</p>
+        <p>Aqui você encontra uma variedade de alimentos frescos e saudáveis para o seu dia a dia.</p>
+        <p>Explore nosso catálogo e descubra opções deliciosas para suas refeições.</p>
+        <p>Faça seu pedido online e receba em casa com toda a comodidade.</p>
+    </div>
+
+    <div class="card-container">
+        <h2>Login</h2>
+        <form id="form-login" class="form-auth" tabindex="-1">
+            <div class="login_box">
+                <label for="login-usuario">Usuário</label>
+                <input id="login-usuario" type="text" name="username" autocomplete="username" required>
+            </div>
+            <div class="login_box">
+                <label for="login-senha">Senha</label>
+                <input id="login-senha" type="password" name="password" autocomplete="current-password" required>
+            </div>
+
+            <div class="login_check-group">
+                <button type="submit">Entrar</button>
+                <a href="registro.html" class="btn-form">Cadastrar</a>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+        </form>
+
+        <a href="https://accounts.google.com/AccountChooser" class="btn-google" target="_blank" rel="noopener noreferrer">
+            Entrar com o Google<span class="sr-only"> (abre em nova aba)</span>
+        </a>
+    </div>
+    </main>
+
+    <!-- VLibras — tradutor de Libras do Governo Federal (vlibras.gov.br) -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffe4e1; /* Fundo rosa bem claro (Misty Rose) */
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background-color: #ffb6c1; /* Rosa bebê (Light Pink) */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #ff99a8; /* Rosa levemente mais forte ao passar o mouse */
+}
+
+button:active {
+    transform: scale(0.95); /* Efeito de clique */
+}

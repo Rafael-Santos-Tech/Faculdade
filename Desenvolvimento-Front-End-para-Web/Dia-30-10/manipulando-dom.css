@@ -1,0 +1,50 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #ffe4e1; /* Fundo inicial rosa bebê */
+            color: #4a4a4a;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: background-color 0.4s ease; /* Suaviza a troca de cor */
+        }
+
+        h1 {
+            color: #d87093;
+            margin-bottom: 40px;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .container-botoes {
+            display: flex;
+            gap: 20px;
+        }
+
+        button {
+            background-color: #ffb6c1; 
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.1s ease;
+        }
+
+        button:hover {
+            background-color: #ff99a8; 
+        }
+
+        button:active {
+            transform: scale(0.95); 
+        }

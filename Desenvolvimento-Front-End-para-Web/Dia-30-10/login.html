@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formulário</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="formulario-login">
+        <h2>Entrar</h2>
+        <!-- O evento de validação será associado ao submit deste formulário -->
+        <form id="formLogin">
+            <div class="grupo-input">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email">
+                <span class="mensagem-erro" id="erroEmail"></span>
+            </div>
+
+            <div class="grupo-input">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+                <span class="mensagem-erro" id="erroSenha"></span>
+            </div>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

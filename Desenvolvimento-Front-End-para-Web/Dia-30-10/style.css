@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffe4e1; /* Fundo rosa bem claro (Misty Rose) */
+    color: #4a4a4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #d87093; /* Rosa um pouco mais escuro para contraste (Pale Violet Red) */
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #ffb6c1; /* Rosa bebê (Light Pink) */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #ff99a8; /* Rosa levemente mais forte ao passar o mouse */
+}
+
+button:active {
+    transform: scale(0.95); /* Efeito de clique */
+}
+
+p {
+    background-color: #ffffff;
+    border: 2px solid #ffb6c1;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    color: #d87093;
+    min-height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}

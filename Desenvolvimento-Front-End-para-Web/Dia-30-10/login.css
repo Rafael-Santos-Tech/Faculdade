@@ -1,91 +1,94 @@
 * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
-        body {
-            background-color: #ffe4e1; /* Fundo rosa bebê */
-            color: #4a4a4a;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+body {
+    background-color: #ffe4e1;
+    /* Fundo rosa bebê */
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-        .formulario-login {
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 400px;
-            border: 2px solid #ffb6c1;
-        }
+.formulario-login {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #ffb6c1;
+}
 
-        h2 {
-            color: #d87093;
-            text-align: center;
-            margin-bottom: 25px;
-        }
+h2 {
+    color: #d87093;
+    text-align: center;
+    margin-bottom: 25px;
+}
 
-        .grupo-input {
-            margin-bottom: 20px;
-            display: flex;
-            flex-direction: column;
-        }
+.grupo-input {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
 
-        label {
-            font-weight: bold;
-            margin-bottom: 5px;
-            color: #d87093;
-        }
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #d87093;
+}
 
-        input {
-            padding: 12px;
-            border: 2px solid #e0e0e0;
-            border-radius: 8px;
-            font-size: 16px;
-            outline: none;
-            transition: border-color 0.3s ease;
-        }
+input {
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
 
-        input:focus {
-            border-color: #ffb6c1;
-        }
+input:focus {
+    border-color: #ffb6c1;
+}
 
-        /* Classe que será adicionada via JS se houver erro */
-        .input-erro {
-            border-color: red !important;
-        }
+/* Classe que será adicionada via JS se houver erro */
+.input-erro {
+    border-color: red !important;
+}
 
-        .mensagem-erro {
-            color: red;
-            font-size: 13px;
-            margin-top: 5px;
-            min-height: 15px; /* Mantém o espaço na tela mesmo vazio */
-            display: none; /* Escondido por padrão */
-        }
+.mensagem-erro {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+    min-height: 15px;
+    /* Mantém o espaço na tela mesmo vazio */
+    display: none;
+    /* Escondido por padrão */
+}
 
-        button {
-            background-color: #ffb6c1; 
-            color: #fff;
-            border: none;
-            padding: 15px;
-            font-size: 18px;
-            font-weight: bold;
-            border-radius: 8px;
-            cursor: pointer;
-            width: 100%;
-            transition: background-color 0.3s ease, transform 0.1s ease;
-            margin-top: 10px;
-        }
+button {
+    background-color: #ffb6c1;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 10px;
+}
 
-        button:hover {
-            background-color: #ff99a8; 
-        }
+button:hover {
+    background-color: #ff99a8;
+}
 
-        button:active {
-            transform: scale(0.95); 
-        }
+button:active {
+    transform: scale(0.95);
+}

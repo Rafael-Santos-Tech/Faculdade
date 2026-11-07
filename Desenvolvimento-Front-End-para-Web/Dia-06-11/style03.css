@@ -1,0 +1,138 @@
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A8C9C8;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+/* Container principal */
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+
+    padding: 35px 30px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Título */
+.container h2:first-child {
+    color: #F45B0B;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Botão verificar */
+button {
+    width: 100%;
+    padding: 15px;
+
+    background-color: #F45B0B;
+    color: #ffffff;
+
+    border: 2px solid #F45B0B;
+    border-radius: 10px;
+
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #ffffff;
+    color: #F45B0B;
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Efeito ao clicar */
+button:active {
+    transform: scale(0.97);
+}
+
+/* Área do resultado */
+#resultado {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Cada resultado gerado pelo JS */
+#resultado p {
+    background-color: #ffffff;
+    color: #F45B0B;
+
+    padding: 12px 15px;
+    margin-bottom: 10px;
+
+    border: 2px solid #A8C9C8;
+    border-left: 5px solid #F45B0B;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+
+/* Efeito nos resultados */
+#resultado p:hover {
+    background-color: #A8C9C8;
+    color: #ffffff;
+
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Ocultar resultado vazio */
+#resultado:empty {
+    display: none;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .container {
+        padding: 25px 20px;
+    }
+
+    .container h2:first-child {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    #resultado p {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

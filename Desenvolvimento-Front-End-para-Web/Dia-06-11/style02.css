@@ -1,0 +1,165 @@
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A8C9C8;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+/* Container principal */
+.container {
+    background-color: #ffffff;
+
+    width: 100%;
+    max-width: 450px;
+
+    padding: 40px 30px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Título */
+.container h2:first-child {
+    color: #F45B0B;
+
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Texto da nota */
+label {
+    color: #F45B0B;
+
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Campo de entrada */
+input {
+    width: 100%;
+    padding: 15px;
+
+    background-color: #ffffff;
+    color: #F45B0B;
+
+    border: 2px solid #A8C9C8;
+    border-radius: 10px;
+
+    font-size: 17px;
+    text-align: center;
+
+    outline: none;
+    transition: 0.3s ease;
+}
+
+/* Efeito ao selecionar o campo */
+input:focus {
+    border-color: #F45B0B;
+    box-shadow: 0 0 10px rgba(244, 91, 11, 0.2);
+}
+
+/* Placeholder */
+input::placeholder {
+    color: #A8C9C8;
+}
+
+/* Botão verificar */
+button {
+    width: 100%;
+    padding: 15px;
+
+    background-color: #F45B0B;
+    color: #ffffff;
+
+    border: 2px solid #F45B0B;
+    border-radius: 10px;
+
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #ffffff;
+    color: #F45B0B;
+
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Efeito ao clicar */
+button:active {
+    transform: scale(0.97);
+}
+
+/* Área do resultado */
+#resultado {
+    width: 100%;
+    padding: 15px;
+
+    background-color: #A8C9C8;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+    overflow-wrap: anywhere;
+    transition: 0.3s ease;
+}
+
+/* Ocultar resultado vazio */
+#resultado:empty {
+    display: none;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .container {
+        padding: 30px 20px;
+        gap: 18px;
+    }
+
+    .container h2:first-child {
+        font-size: 24px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    input,
+    button {
+        font-size: 16px;
+    }
+
+    #resultado {
+        font-size: 18px;
+    }
+}
